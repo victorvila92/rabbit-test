@@ -12,7 +12,7 @@ public class Consumer {
 
     private static final String QUEUE_NAME = "victor-test";
 
-    public static void  main (String args[]) throws IOException, TimeoutException {
+    public static void  main (String[] args) throws IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");
 
