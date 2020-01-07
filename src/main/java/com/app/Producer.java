@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.concurrent.TimeoutException;
 
-public class Sender {
+public class Producer {
 
     private static final String QUEUE_NAME = "victor-test";
 
